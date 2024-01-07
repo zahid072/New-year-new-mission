@@ -15,8 +15,8 @@ body {
   font-family: Merriweather;
   background: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0)),
     url("../images/Banner\ Image.png");
-  width: 1320px;
-  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   padding: 177px 344px;
@@ -62,13 +62,13 @@ body {
   display: flex;
   background: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0)),
     url("../images/Vectorrr.png");
-  width: 1320px;
-  height: 600px;
-  border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
 }
 .party-content {
   color: #fff;
-  margin: 126px 40px 126px 126px;
+  margin: 110px 35px 110px 95px;
 }
 .party-content h1 {
   font-family: Merriweather;
@@ -101,8 +101,8 @@ body {
 .party img {
   display: flex;
   align-items: center;
-  width: 319.83px;
-  height: 464.662px;
+  width: 300px;
+  height: 436px;
   margin: auto 126px auto 0;
   filter: drop-shadow(1px 1px 20px rgba(25, 25, 25, 0.95));
 }
@@ -164,6 +164,7 @@ body {
   font-size: 48px;
   font-weight: 900;
   color: #070211;
+  padding: 16px 0;
 }
 .bonus-left p,
 .bonus-right p {
@@ -173,12 +174,21 @@ body {
   line-height: 32px;
 }
 .bonus-right {
+  height:477px;
   width: 276px;
+  padding: 112px 0 181px;
+  position: relative;
 }
 .bonus-right h1 {
   font-size: 48px;
   font-weight: 700;
   color: #f00;
+  margin-bottom: 16px;
+}
+.bonus-right img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* discount section style */
@@ -317,6 +327,7 @@ body {
   width: 100%;
   outline: none;
   border: none;
+  font-size: 18px;
 }
 .subscribe-info button {
   padding: 24px 56px;
@@ -327,3 +338,54 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
+/* footer section style */
+
+.footer-section{
+  padding: 120px 140px;
+  background: #070211;
+  color: #fff;
+}
+.footer-top{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.footer-top p{
+  width: 390px;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+.footer-top a{
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #fff;
+  margin-right: 100px;
+}
+.footer-mid{
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+.footer-bottom{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-bottom p{
+  font-size: 24px;
+  font-weight: 500;
+}
+hr{
+  margin: 50px 0;
+  opacity: 10%;
+
+
+}
+/* end */
