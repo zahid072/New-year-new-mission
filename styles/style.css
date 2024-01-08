@@ -15,11 +15,11 @@ body {
   font-family: Merriweather;
   background: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0)),
     url("../images/Banner\ Image.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   text-align: center;
-  padding: 177px 344px;
+  padding: 170px 344px;
   border-radius: 20px;
 }
 .banner h2 {
@@ -62,9 +62,9 @@ body {
   display: flex;
   background: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0)),
     url("../images/Vectorrr.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
 }
 .party-content {
   color: #fff;
@@ -174,7 +174,7 @@ body {
   line-height: 32px;
 }
 .bonus-right {
-  height:477px;
+  height: 477px;
   width: 276px;
   padding: 112px 0 181px;
   position: relative;
@@ -185,7 +185,7 @@ body {
   color: #f00;
   margin-bottom: 16px;
 }
-.bonus-right img{
+.bonus-right img {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -244,6 +244,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+  filter: drop-shadow(1px 25px 20px rgba(0, 0, 0, 0.63));
 }
 
 /* portfolio section style */
@@ -341,23 +342,23 @@ body {
 
 /* footer section style */
 
-.footer-section{
+.footer-section {
   padding: 120px 140px;
   background: #070211;
   color: #fff;
 }
-.footer-top{
-width: 100%;
-display: flex;
-justify-content: space-between;
+.footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.footer-top p{
+.footer-top p {
   width: 390px;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
 }
-.footer-top a{
+.footer-top a {
   display: block;
   text-decoration: none;
   font-size: 24px;
@@ -366,26 +367,23 @@ line-height: 40px;
   color: #fff;
   margin-right: 100px;
 }
-.footer-mid{
-width: 100%;
-display: flex;
-justify-content: center;
-gap: 24px;
+.footer-mid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
-.footer-bottom{
+.footer-bottom {
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
-.footer-bottom p{
+.footer-bottom p {
   font-size: 24px;
   font-weight: 500;
 }
-hr{
+hr {
   margin: 50px 0;
   opacity: 10%;
-
-
 }
 /* end */
